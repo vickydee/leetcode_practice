@@ -42,11 +42,12 @@ std::string* str2;
 std::string  str1("This is string one");
 ```
 * has the assignment operator ‘=’ defined for itself
-
-> str1 = str2
-> * In Java this would make both variables reference the same object
-> * In C++ this copies the string data of str2 into the string data of str1.
+```C++
+str1 = str2
+```
 > * str1 & str2 are seperate and unique objects
+> * In C++ this copies the string data of str2 into the string data of str1.
+> * In Java this would make both variables reference the same object
 
 \
 <ins>Pointer</ins>
@@ -57,4 +58,5 @@ str2 = new std::string();
 str2 = new std::string("This is string two");
 ```
 ### std::basic_string
+#### Member functions
 
