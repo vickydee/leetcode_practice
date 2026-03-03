@@ -20,8 +20,8 @@ Initialization
 * declared directly
 * know about themselves (such as their length)
 * have methods that can manipulate themselves
-### std::string
-#### Construction
+## std::string
+### Construction
 **Declaration**
 \
 \
@@ -57,6 +57,6 @@ str2 = new std::string();
 //
 str2 = new std::string("This is string two");
 ```
-### std::basic_string
-#### Member functions
+## std::basic_string
+### Member functions
 
