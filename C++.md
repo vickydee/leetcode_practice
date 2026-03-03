@@ -22,10 +22,13 @@ Initialization
 * know about themselves (such as their length)
 * have methods that can manipulate themselves
 ### std::string
-#### Initialization
+#### Construction
+**Declaration**
+String
 ```C++
 std::string  str1;
 ```
+
 * has the assignment operator ‘=’ defined for itself
 
 > str1 = str2
