@@ -10,8 +10,7 @@ https://www.cs.nmsu.edu/~jcook/posts/cpp-strings/
 \
 Declaration
 * announces the existence, name, and type of a variable
-\
-\
+
 Initialization
 * gives the variable its initial value
 
@@ -24,16 +23,38 @@ Initialization
 ### std::string
 #### Construction
 **Declaration**
-String
+\
+\
+<ins>String</ins>
 ```C++
 std::string  str1;
 ```
-
+<ins>Pointer</ins>
+```C++
+// doesn't exist yet
+std::string* str2;
+```
+**Initialization**
+\
+\
+<ins>String</ins>
+```C++
+std::string  str1("This is string one");
+```
 * has the assignment operator ‘=’ defined for itself
 
 > str1 = str2
 > * In Java this would make both variables reference the same object
 > * In C++ this copies the string data of str2 into the string data of str1.
 > * str1 & str2 are seperate and unique objects
+
+\
+<ins>Pointer</ins>
+```C++
+// create a new string object and make str2 point to it.
+str2 = new std::string();
+//
+str2 = new std::string("This is string two");
+```
 ### std::basic_string
 
