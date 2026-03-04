@@ -24,10 +24,10 @@ public:
         //push_back() appends at the end of the string
         if (i < iMax) {
           //strings are mutable in C++
-          result.push_back(word1[i++])
+          result.push_back(word1[i++]);
         }
         if (j < jMax) {
-          result.push_back(word2[i++])
+          result.push_back(word2[i++]);
         }
       }
       
