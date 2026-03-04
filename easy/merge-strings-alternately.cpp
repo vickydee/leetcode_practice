@@ -27,7 +27,7 @@ public:
           result.push_back(word1[i++]);
         }
         if (j < jMax) {
-          result.push_back(word2[i++]);
+          result.push_back(word2[j++]);
         }
       }
       
