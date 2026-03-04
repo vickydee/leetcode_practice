@@ -1,6 +1,4 @@
 /* 
-Example
-
 Input: word1 = "abc", word2 = "pqr"
 Output: "apbqcr"
 Explanation: The merged string will be merged as so:
@@ -20,9 +18,16 @@ public:
       int i = 0, j = 0;
       int iMax = word1.size();
       int jMax = word2.size();
-      // if one or the other (i or j) hits the end of its string, exit the while loop
+      // if one OR the other (i or j) hits the end of its string, exit the while loop
+      // OR also allows for add. letters from word1/word2 to be appended on the end of the string w/o triggering errors
       while (i < iMax || j < jMax) {
+        //push_back() appends at the end of the string
         if (i < iMax) {
+          //strings are mutable in C++
+          result.push_back(word1[i++])
+        }
+        if (j < jMax) {
+          result.push_back(word2[i++])
         }
       }
       
