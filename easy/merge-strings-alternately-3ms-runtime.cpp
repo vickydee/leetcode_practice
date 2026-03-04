@@ -1,4 +1,4 @@
-// removing comments improves runtime from 3s to 0s
+// removing comments improves runtime from 3ms to 0ms
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
